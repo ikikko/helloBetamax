@@ -1,0 +1,27 @@
+!tape
+name: create diagram
+interactions:
+- recorded: 2012-01-06T01:43:45.456Z
+  request:
+    method: GET
+    uri: http://cacoo.com/api/v1/diagrams/create.json
+    headers:
+      Accept: '*/*'
+      Accept-Encoding: gzip,deflate
+      Host: cacoo.com
+      Proxy-Connection: Keep-Alive
+  response:
+    status: 200
+    headers:
+      Access-Control-Allow-Origin: '*'
+      Cache-Control: no-cache
+      Content-Type: text/javascript;charset=utf-8
+      Date: Fri, 06 Jan 2012 01:43:45 GMT
+      P3P: CP="IDC CUR ADM DEV PSA CONi OUR IND ONL UNI COM CNT STA LOC"
+      Pragma: no-cache
+      Server: nginx
+      Set-Cookie: JSESSIONID=CAC6537693C95BEDD474E077B32B435C.3; Path=/; Secure
+    body: "{\n \"url\" : \"https://cacoo.com/diagrams/yy49ZKdgO9luyOxc\", \n \"imageUrl\" : \"https://cacoo.com/diagrams/yy49ZKdgO9luyOxc.png\", \n \"imageUrlForApi\" : \"https://cacoo.com/api/v1/diagrams/null.png\", \n \"diagramId\" : \"yy49ZKdgO9luyOxc\",\
+      \ \n \"title\" : \"Untitled\", \n \"description\" : null, \n \"security\" : \"private\", \n \"type\" : \"normal\", \n \"owner\" : {\"name\" : \"nakamura\", \"nickname\" : \"nakamura\", \"type\" : \"cacoo\", \"imageUrl\" : \"https://cacoo.com/account/nakamura/image/32x32\"\
+      }, \n \"ownerName\" : \"nakamura\", \n \"ownerNickname\" : \"nakamura\", \n \"editing\" : null, \n \"own\" : true, \n \"shared\" : false, \n \"folderId\" : null, \n \"folderName\" : null, \n \"created\" : \"Fri, 06 Jan 2012 10:43:45 +0900\", \n \"updated\"\
+      \ : \"Fri, 06 Jan 2012 10:43:45 +0900\", \n \"sheets\" : [], \n \"comments\" : []\n}\n"

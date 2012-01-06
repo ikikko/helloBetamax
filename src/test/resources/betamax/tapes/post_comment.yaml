@@ -1,0 +1,25 @@
+!tape
+name: post comment
+interactions:
+- recorded: 2012-01-06T04:35:47.950Z
+  request:
+    method: GET
+    uri: http://cacoo.com/api/v1/diagrams/yy49ZKdgO9luyOxc/comments/post.json
+    headers:
+      Accept: '*/*'
+      Accept-Encoding: gzip,deflate
+      Host: cacoo.com
+      Proxy-Connection: Keep-Alive
+  response:
+    status: 200
+    headers:
+      Access-Control-Allow-Origin: '*'
+      Cache-Control: no-cache
+      Content-Type: text/javascript;charset=utf-8
+      Date: Fri, 06 Jan 2012 04:35:47 GMT
+      P3P: CP="IDC CUR ADM DEV PSA CONi OUR IND ONL UNI COM CNT STA LOC"
+      Pragma: no-cache
+      Server: nginx
+      Set-Cookie: JSESSIONID=F304C43EC9A6A99DA0DE708AAE61DBC2.3; Path=/; Secure
+    body: "{\n \"user\" : {\"name\" : \"nakamura\", \"nickname\" : \"nakamura\", \"type\" : \"cacoo\", \"imageUrl\" : \"https://cacoo.com/account/nakamura/image/32x32\"}, \n \"content\" : \"テストコメント : Fri Jan 06 13:35:45 JST 2012\", \n \"created\" : \"Fri, 06\
+      \ Jan 2012 13:35:47 +0900\", \n \"updated\" : \"Fri, 06 Jan 2012 13:35:47 +0900\"\n}\n"
